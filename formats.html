@@ -1,1 +1,225 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Audio Formats</title><link rel="stylesheet" href="style.css"></head><body><header><h1>10 Audio Formats</h1><nav><a href="index.html">Home</a><a href="formats.html">Formats</a><a href="comparison.html">Comparison</a><a href="about.html">About</a></nav></header><main><p>Press play to test each format. Browser support varies; unsupported formats may not play. The included audio files are demonstration tones, not speech or music.</p><section id="formats" class="grid"></section></main><footer>Playback depends on your browser and operating system.</footer><script src="script.js"></script></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Explore 10 digital audio formats with interactive playback and downloadable samples.">
+
+  <title>10 Audio Formats | Multimedia Audio Lab</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+
+  <header>
+    <h1>Multimedia Audio Lab</h1>
+
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+
+      <a href="formats.html" aria-current="page">
+        Formats
+      </a>
+
+      <a href="comparison.html">Comparison</a>
+
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+
+  <main>
+
+    <section class="hero">
+
+      <span class="eyebrow">
+        MULTIMEDIA ASSIGNMENT / AUDIO TECHNOLOGY
+      </span>
+
+      <h2 class="page-title">
+        EXPLORE 10 AUDIO
+        <br>
+        FILE FORMATS<span style="color:#35df68">.</span>
+      </h2>
+
+      <p class="lead">
+        Discover how different digital audio formats
+        store, compress and reproduce sound.
+        Listen to audio samples, compare encoding
+        methods and download the original files.
+      </p>
+
+    </section>
+
+    <!-- INFORMATION NOTICE -->
+
+    <div class="notice">
+
+      <strong>ABOUT AUDIO PLAYBACK</strong>
+
+      <p>
+        The audio samples are demonstration tones
+        rather than speech or music.
+        Browser support depends on the format
+        and codec used.
+      </p>
+
+      <p>
+        AIFF and WMA include MP3 listening previews
+        because Chrome may not support native
+        playback of these formats.
+        Their original files remain available
+        for download.
+      </p>
+
+    </div>
+
+    <!-- AUDIO FORMAT CARDS -->
+
+    <section>
+
+      <span class="eyebrow">
+        INTERACTIVE AUDIO LIBRARY
+      </span>
+
+      <h2 class="section-heading">
+        Listen. Compare. Understand.
+      </h2>
+
+      <p>
+        Explore each format below using its
+        audio player and download link.
+      </p>
+
+      <div id="formats"
+           class="grid"
+           aria-label="Audio format players">
+      </div>
+
+    </section>
+
+    <!-- EDUCATIONAL INFORMATION -->
+
+    <section>
+
+      <span class="eyebrow">
+        UNDERSTANDING COMPRESSION
+      </span>
+
+      <h2 class="section-heading">
+        Lossless vs Lossy Audio
+      </h2>
+
+      <div class="grid">
+
+        <article>
+
+          <span class="badge">
+            UNCOMPRESSED
+          </span>
+
+          <h3>Uncompressed Audio</h3>
+
+          <p>
+            Formats such as WAV PCM and AIFF PCM
+            store audio samples without
+            perceptual compression.
+            They generally require more
+            storage space.
+          </p>
+
+        </article>
+
+        <article>
+
+          <span class="badge">
+            LOSSLESS
+          </span>
+
+          <h3>Lossless Compression</h3>
+
+          <p>
+            Formats such as FLAC reduce
+            file size without permanently
+            discarding audio information.
+            The original audio samples
+            can be reconstructed.
+          </p>
+
+        </article>
+
+        <article>
+
+          <span class="badge">
+            LOSSY
+          </span>
+
+          <h3>Lossy Compression</h3>
+
+          <p>
+            Formats such as MP3, AAC,
+            OGG Vorbis and Opus reduce
+            file size by removing selected
+            audio information.
+            Quality depends on bitrate
+            and encoding settings.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- NEXT PAGE -->
+
+    <section class="notice">
+
+      <h3>Ready to hear the difference?</h3>
+
+      <p>
+        Explore our one-minute WAV and MP3
+        comparison to understand how
+        audio compression affects
+        file size and sound quality.
+      </p>
+
+      <a href="comparison.html" class="cta">
+        Explore Audio Comparison →
+      </a>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
+      Presented by Dickson Mutugi |
+      SC205/111830/23
+    </p>
+
+    <p>
+      Meru University of Science and Technology
+      | Multimedia Assignment
+    </p>
+
+  </footer>
+
+  <!-- AUDIO PLAYER SCRIPT -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>

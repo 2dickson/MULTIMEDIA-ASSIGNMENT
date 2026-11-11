@@ -1,1 +1,204 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Audio Comparison</title><link rel="stylesheet" href="style.css"></head><body><header><h1>One-Minute Audio Comparison</h1><nav><a href="index.html">Home</a><a href="formats.html">Formats</a><a href="comparison.html">Comparison</a><a href="about.html">About</a></nav></header><main><h2>Listen and Compare</h2><p>The WAV reference below is a one-minute synthesized test tone. The MP3 comparison is a separately encoded version of the same tone. Use headphones at a comfortable volume.</p><div class="grid"><article><h3>WAV — uncompressed reference</h3><audio controls preload="none" src="assets/reference.wav"></audio></article><article><h3>MP3 — compressed</h3><audio controls preload="none" src="assets/comparison.mp3"></audio></article></div><h2>What to notice</h2><p>Listen for changes in clarity, artifacts, and background noise. Simple tones may not reveal meaningful differences; real-world recordings are more useful for critical listening.</p><h2>Summary</h2><p>Lossless formats preserve decoded samples; lossy formats trade some information for smaller files. Sample rate, bit depth, bitrate, encoder settings, and playback equipment influence perceived quality.</p></main><footer>Comparison files are generated examples.</footer></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Compare one-minute WAV and MP3 audio recordings.">
+
+  <title>Audio Comparison | Multimedia Audio Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Multimedia Audio Lab</h1>
+
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="formats.html">Formats</a>
+    <a href="comparison.html" aria-current="page">
+      Comparison
+    </a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <span class="eyebrow">
+      MULTIMEDIA ASSIGNMENT / AUDIO ANALYSIS
+    </span>
+
+    <h2 class="page-title">
+      AUDIO FORMAT
+      <br>
+      COMPARISON<span style="color:#35df68">.</span>
+    </h2>
+
+    <p class="lead">
+      Explore how compression affects digital audio.
+      Listen to the same original recording encoded
+      in WAV and MP3 formats.
+    </p>
+  </section>
+
+  <div class="notice">
+    <strong>ONE-MINUTE AUDIO EXPERIMENT</strong>
+
+    <p>
+      Both recordings originate from the same
+      audio source. The WAV version uses uncompressed
+      PCM audio, while MP3 applies lossy compression.
+      Compare their sound and file sizes.
+    </p>
+  </div>
+
+  <section>
+    <span class="eyebrow">
+      INTERACTIVE LISTENING TEST
+    </span>
+
+    <h2 class="section-heading">
+      Listen to Both Formats
+    </h2>
+
+    <div class="grid">
+
+      <article class="format-card">
+        <span class="format-label">
+          UNCOMPRESSED AUDIO
+        </span>
+
+        <h2>WAV</h2>
+
+        <p>
+          The reference recording preserves
+          the original PCM audio samples.
+        </p>
+
+        <audio controls preload="metadata">
+          <source src="assets/reference.wav"
+                  type="audio/wav">
+          Your browser does not support audio.
+        </audio>
+
+        <p>
+          <a href="assets/reference.wav" download>
+            Download WAV Reference
+          </a>
+        </p>
+      </article>
+
+      <article class="format-card">
+        <span class="format-label">
+          LOSSY COMPRESSION
+        </span>
+
+        <h2>MP3</h2>
+
+        <p>
+          The same recording encoded using
+          MP3 compression to reduce file size.
+        </p>
+
+        <audio controls preload="metadata">
+          <source src="assets/comparison.mp3"
+                  type="audio/mpeg">
+          Your browser does not support audio.
+        </audio>
+
+        <p>
+          <a href="assets/comparison.mp3" download>
+            Download MP3 Comparison
+          </a>
+        </p>
+      </article>
+
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">
+      UNDERSTANDING THE DIFFERENCES
+    </span>
+
+    <h2 class="section-heading">
+      WAV vs MP3
+    </h2>
+
+    <div class="grid">
+
+      <article>
+        <span class="badge">01 / QUALITY</span>
+        <h3>Sound Quality</h3>
+        <p>
+          WAV PCM preserves the original samples.
+          MP3 removes selected information
+          to achieve smaller file sizes.
+          Audible differences depend on
+          the bitrate and source recording.
+        </p>
+      </article>
+
+      <article>
+        <span class="badge">02 / STORAGE</span>
+        <h3>File Size</h3>
+        <p>
+          Uncompressed WAV usually requires
+          more storage space, while MP3
+          achieves smaller files through
+          perceptual audio compression.
+        </p>
+      </article>
+
+      <article>
+        <span class="badge">03 / APPLICATION</span>
+        <h3>Practical Uses</h3>
+        <p>
+          WAV is commonly used in recording
+          and audio production. MP3 is useful
+          for distributing and storing audio
+          efficiently.
+        </p>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="notice">
+    <h3>Conclusion</h3>
+
+    <p>
+      The best audio format depends on the
+      intended use. WAV prioritizes sample
+      preservation, while MP3 prioritizes
+      storage and transmission efficiency.
+    </p>
+
+    <a href="about.html" class="cta">
+      About This Project →
+    </a>
+  </section>
+
+</main>
+
+<footer>
+  <p>
+    Presented by Dickson Mutugi |
+    SC205/111830/23
+  </p>
+
+  <p>
+    Meru University of Science and Technology
+    | Multimedia Assignment
+  </p>
+</footer>
+
+</body>
+</html>
